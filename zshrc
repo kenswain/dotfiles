@@ -8,8 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="strug"
-
+# ZSH_THEME="strug"
+ZSH_THEME="candy"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -122,3 +122,9 @@ export PATH="$PATH:/Users/kennethswainii/.lmstudio/bin"
 # End of LM Studio CLI section
 
 export PATH="$HOME/.local/bin:$PATH"
+export PAI_DIR="/Users/ken/Documents/Code/Personal_AI_Infrastructure"
+export PAI_HOME="$HOME"
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/ken/.lmstudio/bin"
+# End of LM Studio CLI section
+
